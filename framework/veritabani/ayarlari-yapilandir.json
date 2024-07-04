@@ -1,0 +1,22 @@
+{
+  "title": "Bağlantı Ayarları",
+  "section_titles": {
+    "Yapılandırma":{
+      "id": "configs"
+    },
+    "Sürücüye Göre Yapılandırılmaları":{
+      "id": "config-with-driver",
+      "submenu" : [
+        {
+        "id": "MySQL",
+        "title" : "MySQL"
+        },
+        {
+        "id": "SQLite",
+        "title" : "SQLite"
+        }
+      ]
+    }
+  },
+  "short_description": "Veritabanı yöntemlerini kullanmadan önce bir takım ayarlar yapmanız gerekmektedir. Bu bölümde, ne gibi ayarlar yapacağınız konusunda bilgi verdik. Aşağıda OceanWebTurk Framework'ün desteklediği Veritabanı Platformları belirtilmiştir."
+}

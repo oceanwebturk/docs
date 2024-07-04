@@ -1,0 +1,27 @@
+{
+ "default_url": "framework/baslarken/oceanwebturk-framework-nedir",
+ "groups":{
+   "getting-started": {
+   	"title": "Başlarken",
+   	"prefix": "baslarken"
+   },
+   "database": {
+    "title": "Veritabanı",
+    "prefix": "veritabani"
+   }
+ },
+ "links": {
+   "getting-started": {
+     "oceanwebturk-framework-nedir": {
+     "title": "OceanWebTurk Framework Nedir",
+     "url": "oceanwebturk-framework-nedir"
+    }
+   },
+   "database":{
+    "veritabani-baglanti-yapilandirma": {
+      "title": "Bağlantı Ayarları",
+      "url": "ayarlari-yapilandir"
+    }
+   }
+ }
+}

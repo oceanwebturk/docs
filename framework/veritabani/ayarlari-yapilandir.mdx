@@ -1,0 +1,46 @@
+# <a data-ajax="true" id="configs" accesskey="configs">Yapılandırma</a>
+
+|Anahatar|Açıklama|Kullanan Sürücüler|
+|-------------------------|---------|------|
+|<span class="type">string</span> <span class="variable">$driver</span> = <span class="nail">'mysql'</span> | Veritabanına bağlanmak için kullanılan platformdur.<br>__Seçenekler__ mysql,sqlite | Hepsi |
+|<span class="type" data-type="string">string</span> <span class="variable">$host</span> = <span class="nail">'localhost'</span>| Bağlanılacak veritabanının hostunu belirler.  | Hepsi |
+|<span class="type" data-type="string">string</span> <span class="variable">$database</span> = <span class="nail">''</span>| Bağlantının sağlanacağı veritabanı adını belirlemek için kullanılır.  | Hepsi |
+|<span class="type">string</span> <span class="variable">$user</span> = <span class="nail">'root'</span>| Veritabanına bağlanmak için kullanılan kullanıcı adıdır. | Hepsi |
+|<span class="type">string</span> <span class="variable">$password</span> = <span class="nail">''</span>| Veritabanına bağlanmak için kullanılan kullanıcı şifresidir. | Hepsi |
+| <span class="type">string</span> <span class="variable">$prefix</span>|   Tablo ön eki olan veritabanlarında tablo kullanımları için sürekli ön ek yazmamak için bu ayarı kullanabilirsiniz. | Hepsi |
+| <span class="type">array</span> <span class="variable">$options</span> = <span class="nail">[]</span>  | Veritabanı işlemleri için sürücü ayarları. | Hepsi |
+
+# <a data-ajax="true" id="config-with-driver" accesskey="config-with-driver">Sürücüye Göre Yapılandırılmaları</a>
+Sistem tarafından desteklenen sürücüler ve bağlantı çeşitleri aşağıda verilmiştir.
+
+| Adı    |
+|--------|
+| MySQL  |
+| SQLite |
+
+<hr>
+
+## <a data-ajax="true" id="MySQL" accesskey="MySQL">MySQL bağlantısı</a>
+MySQL bağlantısı için yapmanız gerekenler.
+```php
+"mysql" => [
+    "driver" => "mysql",
+    "host" => "localhost",
+    "database" => "project",
+    "user" => "root",
+    "password" => "",
+    "prefix" => "",
+    "options" => []
+]
+```
+<hr>
+## <a data-ajax="true" id="SQLite" accesskey="SQLite">SQLite Bağlantısı</a>
+Sqlite bağlantısı için yapmanız gerekenler.
+```php
+"sqlite" => [
+    "driver" => "sqlite",
+    "host" => "database.db",
+    "prefix" => "",
+    "options" => []
+]
+```
