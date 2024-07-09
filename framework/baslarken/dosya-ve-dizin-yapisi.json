@@ -1,4 +1,4 @@
 {
   "title": "Dosya ve Dizin Yapısı",
-  "short_description": "<strong class='text-blue'>OceanWebTurk Framework,</strong> Dosya ve dizin yapısı linux'a benzer çünkü sunucularda kullanılan işletim sistemi linux olunca ve linux kullanmayan birisi framework'ü kullanıdğında linux dosya yapısınıda öğrenir ve bu yüzden linux klasör yapısına benzetilmiştir."
+  "short_description": "<strong class='text-blue'>OceanWebTurk Framework,</strong> Dosya ve dizin yapısı gelişmiş,basit ve linux'a benzer yapıya sahiptir.Çünkü sunucularda kullanılan işletim sistemi linux olunca ve linux kullanmayan birisi framework'ü kullanıdğında linux dosya yapısınıda öğrenir,bir hata çıktığında daha kolay bulur ve bu yüzden linux klasör yapısına benzetilmiştir."
 }
