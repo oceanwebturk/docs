@@ -14,7 +14,10 @@
    "getting-started": {
      "oceanwebturk-framework-nedir": {
      "title": "OceanWebTurk Framework Nedir",
-     "url": "oceanwebturk-framework-nedir"
+     "url": "oceanwebturk-framework-nedir",
+     "urls": {
+      "en": "getting-started/what-is-oceanwebturk-framework"
+     }
     },
     "dosya-ve-dizin-yapisi": {
      "title": "Dosya ve Dizin Yapısı",
