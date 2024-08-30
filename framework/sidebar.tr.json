@@ -12,23 +12,20 @@
  },
  "links": {
    "getting-started": {
-     "oceanwebturk-framework-nedir": {
-     "title": "OceanWebTurk Framework Nedir",
-     "url": "oceanwebturk-framework-nedir",
-     "urls": {
-      "en": "getting-started/what-is-oceanwebturk-framework"
-     }
-    },
-    "dosya-ve-dizin-yapisi": {
-     "title": "Dosya ve Dizin Yapısı",
-     "url": "dosya-ve-dizin-yapisi"
-    }
+      "oceanwebturk-framework-nedir": {
+        "title": "OceanWebTurk Framework Nedir",
+        "urls": {
+         "en": "getting-started/what-is-oceanwebturk-framework"
+        }
+      },
+      "dosya-ve-dizin-yapisi": {
+       "title": "Dosya ve Dizin Yapısı"
+      }
    },
    "database":{
-    "veritabani-baglanti-yapilandirma": {
-      "title": "Bağlantı Ayarları",
-      "url": "ayarlari-yapilandir"
-    }
+      "ayarlari-yapilandir": {
+        "title": "Bağlantı Ayarları"
+      }
    }
  }
 }
